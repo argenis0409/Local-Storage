@@ -1,0 +1,23 @@
+{
+  "name": "local-storage",
+  "version": "1.0.0",
+  "description": "Working with local storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argenis0409/Local-Storage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argenis0409/Local-Storage/issues"
+  },
+  "homepage": "https://github.com/argenis0409/Local-Storage#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
